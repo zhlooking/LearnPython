@@ -12,3 +12,11 @@ This is a multiline
 comment
 '''
 # TODO: Learn data type and struct and string in Python
+f = open('workfile', 'w')
+print f
+
+print '''line1
+	line2
+	line3'''
+
+print r'''line1 line2 line3'''
