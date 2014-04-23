@@ -34,5 +34,25 @@ def power(x, n = 2):
 		n -= 1
 		s *= n;
 	return s 
+# To be fixed:
+# draw_circle(0, 0, 20, linecolor=0xffff00, fillcolor=0xff00ff, penwidth=5)
+# The above line will raise a NameError called: name 'draw_circle' is not defined
 
-draw_circle(0, 0, 20, linecolor=0xffff00, fillcolor=0xff00ff, penwidth=5)
+def add_append(L[]):
+	return L.append('END')
+# This will cause error when no paramater is passed to the function
+# Use the below instead:
+def add_append(L = None):
+	if L is None:
+		return L = []
+	else:
+		return L.append('END')
+	
+
+# The function that can change the number of paramaters
+# The function chage the paramaters into set or tuple by default
+def calc(*numbers):
+	sum = 0
+	for n in numbers:
+			sum += n * n
+	return sum
