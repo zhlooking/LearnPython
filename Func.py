@@ -52,7 +52,7 @@ def add_append(L = None):
 # The function that can change the number of paramaters
 # The function chage the paramaters into set or tuple by default
 def calc(*numbers):
-	sum = 0
+	sum = 0 
 	for n in numbers:
 			sum += n * n
 	return sum
