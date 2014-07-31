@@ -49,4 +49,3 @@ from collections import Iterable
 print isinstance('ABC', Iterable)
 print isinstance([], Iterable)
 print isinstance(123, Iterable)
-print isinstance(124, Iterable)
